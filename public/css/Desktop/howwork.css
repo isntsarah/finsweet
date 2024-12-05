@@ -1,0 +1,79 @@
+.howwork {
+    width: 100%;
+    
+    background-color: var(--mainWorkBgColor);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: calc(50px + 5vw);
+    padding: calc(30px + 5vw) calc(20px + 5vw);
+    box-sizing: border-box;
+    .Heading {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: start;
+      gap: 1rem;
+      margin-top: 20px;
+      .title {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        color: #282938;
+      }
+      .description {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        color: #282938;
+      }
+      .touch {
+        a {
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          color: #2405f2;
+          text-decoration: none;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .Cards {
+      width: 60%;
+   flex: unset;
+   display: grid;
+   gap: unset;
+   grid-template-columns: repeat(2 , 1fr);
+   grid-template-rows: repeat(2 , 1fr);
+   
+      .card {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 1rem;
+        background-color: var(--mainWorkBgColor);
+        margin-top: 20px;
+                border: unset;
+
+        .title {
+          font-family: Poppins;
+          font-size: 32px;
+          font-weight: 500;
+          color: #282938;
+        }
+        .content {
+          width: fit-content;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          color: #282938;
+        }
+      }
+    }
+  }
+  

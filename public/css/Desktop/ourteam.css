@@ -1,0 +1,85 @@
+.ourTeam {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    background-color: #f4f6fc;
+    padding: 2rem;
+    box-sizing: border-box;
+    gap: 2rem;
+    .header {
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f6fc;
+      margin-top: 20px;
+    }
+    .sectioncards {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      .mainimage{
+          position: relative;
+          z-index: 3;
+          img{
+              border-radius: 50%;
+          }
+          .image{
+              position: absolute;
+              top: 0;
+              opacity: 0;
+              transition: 500ms;
+            
+              &:hover{
+                  opacity: 1;
+                  
+                  
+              }
+          
+          }
+          .socialmedia{
+              position: absolute;
+              bottom: 20px;
+              left: 50px;
+              z-index: 4;
+              display: none;
+              transition: 500ms;
+          }
+          &:hover .socialmedia{
+              display: block;
+          }
+      }
+      .sectioncard {
+        width: 23%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #FFFFFF;
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+        h6 {
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 400;
+          color: #1d2130;
+        }
+        p {
+          
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+         color: #1d2130;
+         opacity: 0.7;
+        }
+      }
+    }
+  }
+  

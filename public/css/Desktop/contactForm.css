@@ -1,0 +1,123 @@
+.maincontactForm {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  .contactForm {
+    width: 53%;
+    height: 691px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--mainBgColor);
+    .description {
+      width: 60%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: start;
+      h5 {
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 400;
+        color: #ffffff;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #f4f6fc;
+      }
+    }
+    input {
+      background-color: var(--mainBgColor);
+      width: 60%;
+      height: 10%;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      box-shadow: unset;
+      border: 1.5px solid#FFFFFF0D;
+      &::placeholder {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #f4f6fc;
+        opacity: 0.5;
+      }
+    }
+    a.viewbtnlink {
+      text-transform: capitalize;
+      text-decoration: none;
+      font-family: Manrope;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1b1c2b;
+      .viewbtn {
+        padding: 1em 8em;
+        box-sizing: border-box;
+        border-radius: 41px;
+        background-color: #fcd980;
+      }
+    }
+    .touch {
+      margin-top: 30px;
+      a {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .image {
+   
+    position: relative;
+    display: unset;
+    img{
+      width: fit-content;
+    }
+    .cover {
+      width: 100% ;
+      height: 100%;
+      background-color: #1c1e5380;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+
+      .content {
+        width: 60%;
+        display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+        h1 {
+          font-family: Poppins;
+          font-size: 54px;
+          font-weight: 600;
+          color: #ffffff;
+        }
+        span {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

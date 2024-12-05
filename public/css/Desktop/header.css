@@ -1,0 +1,92 @@
+header {
+    width: 100%;
+    background-color: var(--mainBgColor);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 100px;
+    box-sizing: border-box;
+    gap: 10px;
+    position: unset;
+    div.logo {
+      width: 15%;
+      height: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    div.menu {
+      width: 85%;
+      height: 100%;
+  
+      nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        .mainmenu {
+          width: 75%;
+          height: 100%;
+          padding-right: 20px;
+          box-sizing: border-box;
+  
+          ul {
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: end;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: unset;
+            li {
+              width: fit-content;
+  
+              a {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                text-decoration: none;
+                text-transform: capitalize;
+                color: var(--mainTextColorMenu);
+                &.active {
+                  color: #ffffff !important;
+                }
+              }
+            }
+          }
+        }
+        .contactbtn {
+          width: 25%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: unset;
+          a {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: capitalize;
+  
+            .contact{
+              width: fit-content;
+              padding: 16px 30px;
+              box-sizing: border-box;
+              border-radius: 41px;
+              border: 2px solid #f4f6fc33;
+            }
+          }
+        }
+      }
+    }
+  }
+  input#close , input#show , label[for="close"] ,  label[for="show"] , div.close{
+    display: none !important;
+  }

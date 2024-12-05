@@ -1,0 +1,86 @@
+.Benefits {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  .header {
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 2rem;
+    h2 {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      color: #282938;
+    }
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .Benefitscard {
+      width: 25%;
+      min-height: 370px;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: start;
+      background-color: #f4f6fc;
+      gap: 1rem;
+      border: unset;
+      h6 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        color: #282938;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        color: #282938;
+      }
+    }
+  }
+  .logosection {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    .left {
+      width: 15%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .logowrapper {
+      width: 85%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+     gap: 1rem;
+   
+    }
+  }
+}

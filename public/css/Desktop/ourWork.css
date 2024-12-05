@@ -1,0 +1,114 @@
+.ourWork {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: calc(15px + 2vw);
+  box-sizing: border-box;
+  .header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    .left {
+      width: 60%;
+
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    .right {
+      width: 40%;
+
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      h2 {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        color: #282938;
+      }
+      a {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #282938;
+        text-decoration: none;
+      }
+    }
+  }
+  .project {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: unset;
+    .card {
+      width: 100%;
+
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      .left {
+        width: 60%;
+        img {
+          width: 100%;
+          max-width: unset;
+        }
+        .cover {
+          height: 100%;
+          background-color: #1c1e5340;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: end;
+          align-items: start;
+          gap: 2rem;
+          position: absolute;
+          transition: 500ms;
+          margin-bottom: 3rem;
+          padding: 2rem;
+          p {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+            color: #ffffff;
+          }
+          span {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            opacity: 0.8;
+          }
+          a {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fcd980;
+            text-decoration: none;
+            margin-top: 30px;
+          }
+        }
+      }
+      .right {
+        width: 32%;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

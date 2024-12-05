@@ -1,0 +1,55 @@
+div.FAQ {
+  width: 100%;
+  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  .FAQHeading {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+    h3 {
+      font-family: Poppins;
+      font-size: 38px;
+      font-weight: 600;
+      color: #282938;
+    }
+    a {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #2405f2;
+    }
+  }
+  .question {
+width: 80%;
+
+
+    .card{
+        width: 100%;
+        .card-header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card-body{
+            width: 100%;
+        }
+    }
+  }
+
+}
+.accordion-buttoncollapsed{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#app{
+    width: 100%;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+:root{
+    --mainBgColor:#1C1E53;
+    --mainTextColorMenu:#BBBBCB;
+    --mainWorkBgColor:#F4F6FC;
+    --mainTextColor:#282938;
+
+}

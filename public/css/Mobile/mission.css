@@ -1,0 +1,47 @@
+.mission{
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF4FA;
+    .missionsection {
+        width: 80%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        padding: 2rem;
+        box-sizing: border-box;
+        .content {
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: start;
+          align-items: start;
+          p {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            color: #282938;
+          }
+          h1 {
+            font-family: Poppins;
+            font-size: 54px;
+            font-weight: 600;
+            color: #282938;
+          }
+        }
+        .image {
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 100%;
+          }
+        }
+      }
+}

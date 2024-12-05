@@ -1,0 +1,144 @@
+header {
+  width: 40%;
+  background-color: var(--mainBgColor);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: -62%;
+  transition: 500ms;
+  z-index: 2;
+
+  div.menu {
+    width: 30%;
+    height: 100%;
+
+    nav {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      .mainmenu {
+        width: 75%;
+        height: 100%;
+        padding-right: 20px;
+        box-sizing: border-box;
+
+        ul {
+          width: 100%;
+          height: 100%;
+          list-style: none;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: start;
+          align-items: center;
+          gap: 32px;
+          li {
+            width: auto;
+
+            a {
+              white-space: nowrap;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              text-decoration: none;
+              text-transform: capitalize;
+              color: var(--mainTextColorMenu);
+              transition: 400ms;
+              &:hover {
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+      .contactbtn {
+        width: fit-content;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        a {
+          font-family: Poppins;
+          font-size: 1rem;
+          font-weight: 500;
+          color: #ffffff;
+          text-decoration: none;
+          text-transform: capitalize;
+          text-align: center;
+          white-space: nowrap;
+
+          .contact {
+            width: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+            border-radius: 41px;
+            border: 2px solid #f4f6fc33;
+          }
+        }
+      }
+    }
+  }
+}
+header > div.close {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  label[for="close"] {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px crimson;
+    cursor: pointer;
+    transition: 400ms;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+label[for="show"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--mainBgColor);
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  transition: 500ms;
+  &:hover {
+    transform: scale(85%);
+  }
+  div {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+  }
+}
+input#show:checked ~ header {
+  left: 0;
+}
+input#show,
+input#close {
+  display: none;
+}

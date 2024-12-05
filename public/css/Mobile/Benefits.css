@@ -1,0 +1,79 @@
+.Benefits {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  .header{
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    h2 {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      color: #282938;
+    }
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .Benefitscard{
+      width: 60%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: start;
+      background-color: #f4f6fc;
+      padding: 2rem;
+      gap: 1rem;
+      border: unset;
+      h6 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        color: #282938;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        color: #282938;
+      }
+    }
+  }
+  .logosection{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    .logowrapper{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      
+        
+        
+    
+    }
+    
+  }
+}

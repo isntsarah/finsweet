@@ -1,0 +1,5 @@
+@import "./Mobile/Mobile.css" only screen and (min-width: 0);
+@import "./Desktop/Desktop.css" only screen and (min-width: 1000px);
+@import "./setting.css";
+@import"../css/tailwind.css";
+@import"./tailwind.css";

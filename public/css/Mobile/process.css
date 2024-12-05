@@ -1,0 +1,68 @@
+.process {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  .title {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      color: #282938;
+    }
+  }
+  .cardsection {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 3rem;
+    .cardprocess {
+      width: 70%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      .image{
+        width: 100%;
+        display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items:start;
+      }
+
+      .content {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items:start;
+        
+        h6 {
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 500;
+          color: #282938;
+        }
+        p {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          color: #282938;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
